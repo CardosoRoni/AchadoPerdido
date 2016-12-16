@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Achados e Perdidos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="achado_cad_edtData">Data</string>
+    <string name="achado_cad_edtCategoria">Categoria</string>
+    <string name="achado_cad_edtDescricao">Descrição</string>
+    <string name="achado_cad_edtContato">Contato</string>
+    <string name="achado_cad_btnSalvar">Salvar</string>
+
+
+    <string name="perdido_cad_edtData">Data</string>
+    <string name="perdido_cad_edtCategoria">Categoria</string>
+    <string name="perdido_cad_edtDescricao">Descrição</string>
+    <string name="perdido_cad_edtContato">Contato</string>
+    <string name="perdido_cad_btnSalvar">Salvar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

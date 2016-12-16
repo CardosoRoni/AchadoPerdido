@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_achados"
+            android:title="Objetos Achados" />
+
+        <item
+            android:id="@+id/nav_perdidos"
+            android:title="Objetos Perdidos" />
+
+        <item
+            android:id="@+id/nav_guia"
+            android:title="Guia" />
+
+        <item
+            android:id="@+id/nav_sobre"
+            android:title="Sobre" />
+    </group>
+
+</menu>

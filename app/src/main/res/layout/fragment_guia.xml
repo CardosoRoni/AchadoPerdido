@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="unoesc.edu.br.achadoperdido.guia.GuiaFragment">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:text="Este aplicativo tem como objetivo ajudar as pessoas a encontrar itens perdidos. É um aplicativo gratuito, e você pode utilizar para cadastrar objetos que você poderá encontrar ou perder."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:typeface="normal"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/achados"/>
+</LinearLayout>

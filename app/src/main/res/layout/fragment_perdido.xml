@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="4dp"
+                    android:layout_weight="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/activity_perdido_tvData1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Data: "
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/activity_perdido_tvData"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Data"
+                                android:textAppearance="?android:attr/textAppearanceSmall"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/activity_perdido_tvCategoria1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Categoria: "
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:id="@+id/activity_perdido_tvCategoria"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Categoria"
+                                android:textAppearance="?android:attr/textAppearanceSmall"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/activity_perdido_tvDescricao1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Descrição: "
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/activity_perdido_tvDescricao"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Descrição"
+                                android:textAppearance="?android:attr/textAppearanceSmall"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/activity_perdido_tvContato1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Contato: "
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/activity_perdido_tvContato"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Contato"
+                                android:textAppearance="?android:attr/textAppearanceSmall"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="right|center_vertical">
+                        <ImageView
+                            android:id="@+id/activity_achado_imFoto"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!--<include layout="@layout/fragment_achado_mapa"/>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:layout_margin="4dp">
+                    <include layout="@layout/fragment_achado_mapa"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view1"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_marginTop="4dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aguardando retorno ....."
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>
